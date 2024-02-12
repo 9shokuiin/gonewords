@@ -44,9 +44,12 @@ body{
 
 .name{
     position: absolute;
-    bottom: 5%;
-    left: 20px;
+    bottom: 20px;
     color: #fff;
+    text-align: center;
+    left: 0;
+    right: 0;
+    margin: auto;
 }
 
 
