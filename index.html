@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gone</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="wrap">
+        <div class="p"><p id="output"></p></div>
+        <form action="#" id="form">
+            <input id="key" type="text" name="content" maxlength="8">
+            <input type="submit" value="↑">
+        </form>
+    </div>
+</body>
+<script>
+    document.getElementById('form').onsubmit =  function(event){
+        event.preventDefault();
+        let inputForm = document.getElementById('form').content.value;
+        document.getElementById('output').textContent = `${inputForm}`;
+        document.getElementById("key").value = '';
+    }
+</script>
+</html>
