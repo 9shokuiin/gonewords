@@ -2,6 +2,7 @@ body{
     padding: 0;
     margin: 0;
     overflow: hidden;
+    position: relative;
     background-image: url(..//img/tunnel_-_25691-_Original_.gif);
     background-size: 100vw 100vh;
     background-repeat: no-repeat;
@@ -25,6 +26,12 @@ body{
 #output{
     color: #fff;
     font-size: 10em;
+    margin: 10%;
+    animation-name: gone;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+    font-family: "soukoumin";
 }
 
 .p{
@@ -35,18 +42,23 @@ body{
     text-align: center;
 }
 
-p{
-    margin: 10%;
-    animation-name: gone;
-    animation-duration: 2s;
-    animation-timing-function: linear;
-    animation-iteration-count: infinite;
-    font-family: "soukoumin";
+.name{
+    position: absolute;
+    bottom: 5%;
+    left: 20px;
+    color: #fff;
+}
+
+
+.name a{
+    color: #fff;
 }
 
 @media screen and (max-width:800px){
 
-
+    html{
+        overflow: hidden;
+    }
     body{
         padding: 0;
         margin: 0;
@@ -60,6 +72,12 @@ p{
     #output{
         font-size: 6em;
         margin-top: 40%;
+        color: #fff;
+        animation-name: gone;
+        animation-duration: 2s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+        font-family: "soukoumin";
     }
 
 }
