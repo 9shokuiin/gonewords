@@ -46,9 +46,22 @@ p{
 
 @media screen and (max-width:800px){
 
+
+    body{
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        background-image: url(..//img/tunnel_-_25691-_Original_.gif);
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
     #output{
         font-size: 6em;
+        margin-top: 40%;
     }
+
 }
 
 @font-face {
