@@ -1,1 +1,1 @@
-URL →　（https://9shokuiin.github.io/gonewords/）
+URL →　（ https://9shokuiin.github.io/gonewords/ ）
